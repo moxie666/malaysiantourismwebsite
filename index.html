@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malaysian Tourism Website</title>
+<style type="text/css">
+@import url("project2.css");
+</style>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+	
+<body>
+	
+<div class="nav">
+	
+  <a href="#home">Peak Into Malaysia</a>
+	
+  <a href="#events">Events</a>
+	
+	<a href="#news">   <img src="Malayian Tourism Logo .jpg" alt="Malaysian Tourism Logo"></a>
+	
+	 	
+  <a href="#packages">Packages and Deals</a>
+		<a href="gettinghere">Getting Here</a>
+	  </div>
+
+	
+	
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="penang-hill-1-1-1021x580.png" alt="Penang Hill" style="width:100%">
+  <img class="mySlides" src="perhentian.png" alt="Pulau Perhentian" style="width:100%">
+  <img class="mySlides" src="mtkinabalu.png" alt="Mount Kinabalu" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	
+
+	
+<h1 id="events">Events and Happenings</h1>
+	<h3>Highlights</h3>
+	
+	<div class="row">
+  <div class="column">
+    <img src="deepavali.png" alt="deepavali" style="width:100%">
+	  <p> Deepavali </p>
+  </div>
+  <div class="column">
+    <img src="CNY.png" alt="CNY" style="width:100%">
+	  <p>Chinese New Year</p>
+  </div>
+  <div class="column">
+    <img src="gawai.png" alt="gawai" style="width:100%">
+	  <p> Gawai </p>
+  </div>
+		<div class="column">
+    <img src="THAIPUSAM.png" alt="Thaipusam" style="width:100%">
+			<p>Thaipusam</p>
+  </div>
+</div>
+	
+	<br>
+	<br>
+	
+	<h1 id="packages"> Deals and Packages</h1>
+	<h3>Highlights</h3>
+	
+	<div class="row2">
+  <div class="column2">
+    <img src="Hotel1.png" alt="Hotel1" style="width:100%">
+    <p>3 DAYS 2 NIGHT STAY 
+AT LANGKAWI</p>
+    <h2><font color="#F90004">  
+		RM 895 nett</font></h2>
+  </div>
+  <div class="column2">
+    <img src="Hotel2.jpg" alt="Hotel2" style="width:100%">
+    <p>4 DAYS 5 NIGHTS SPA 
+RETREAT IN PENANG</p>
+    <h2><font color="#F90004">RM 1350 nett</font></h2>
+  </div>
+  <div class="column2">
+    <img src="hotel3.png" alt="Hotel3" style="width:100%">
+    <p>2 DAY 2 NIGHT SUITE
+IN IPOH</p>
+    <h2><font color="#F90004">RM 546 nett</font></h2>
+  </div>
+		<div class="column2">
+    <img src="Hotel4.png" alt="Hotel4" style="width:100%">
+		  <p>3 DAYS 2 NIGHT ZEN
+RETEAT IN PERAK</p>
+			<h2><font color="#F90004">RM 995 nett</font></h2>
+  </div>
+</div>
+	<div class="getting"> 
+	<h1 id="gettinghere"> Getting Here </h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127527.89293311667!2d101.61640145820311!3d2.7430883999999955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdbf94cf449acf%3A0xb1c51800f8c45ef5!2sKuala%20Lumpur%20International%20Airport%202!5e0!3m2!1sen!2smy!4v1605114583763!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+	
+<div class="footer"> 
+	<p class="footer text"> 
+	<p>E-BROCHURE</p>
+	<p>GALLERY</p>
+	<p>DISCLAIMER</p>
+	<p>TERMS OF USE</p></p></div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
